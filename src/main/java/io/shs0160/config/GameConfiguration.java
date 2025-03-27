@@ -6,6 +6,7 @@ import io.shs0160.app.KoreanCuisineAbility;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+@Deprecated
 @Configuration
 @ComponentScan(basePackages = { "io.shs0160.app", "io.shs0160.repository" })
 public class GameConfiguration {

@@ -1,10 +1,11 @@
 package io.shs0160.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+@Deprecated
+public class GameApplicationInitializer{}
+//public class GameApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-public class GameApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
-
-    //service, repository -> root-context.xml에 등록 해야함 원래
+    /*//service, repository -> root-context.xml에 등록 해야함 원래
     //root-context 를 대체
     @Override
     protected Class<?>[] getRootConfigClasses() {
@@ -21,5 +22,5 @@ public class GameApplicationInitializer extends AbstractAnnotationConfigDispatch
     @Override
     protected String[] getServletMappings() {
         return new String[] { "/" };
-    }
-}
+    }*/
+

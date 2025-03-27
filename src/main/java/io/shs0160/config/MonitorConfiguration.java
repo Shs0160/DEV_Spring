@@ -12,6 +12,7 @@ import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ITemplateResolver;
 
+@Deprecated
 @Configuration
 @EnableWebMvc
 @ComponentScan( basePackages = "io.shs0160.controller")
